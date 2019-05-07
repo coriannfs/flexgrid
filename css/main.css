@@ -107,10 +107,15 @@ body {
   font-size: 1.25em;
   height: 100%;
 }
-
+header {
+  color: #f9f9fb;
+}
+header p {
+  font-size: 1.5em;
+}
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   justify-content: space-between;
 }
@@ -119,8 +124,8 @@ body {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #f9f9fb;
   line-height: 1.5em;
-  font-size: 1.6em;
-  height: 300px;
+  font-size: 1em;
+  height: 200px;
   width: 30%;
   padding: 20px;
   display: flex;
@@ -135,7 +140,26 @@ body {
   padding-right: 25px;
 }
 
-
+footer {
+  color: #505362;
+  text-align: center;
+  margin-top: 50px;
+}
+footer ul {
+  list-style: none;
+}
+footer a {
+  text-decoration: none;
+  color: #505362;
+}
+footer a:hover {
+  color: #f9f9fb; 
+}
+footer li {
+  display:inline;
+  padding: 20px;
+  margin-right: 20px;
+}
 
 
 /* ==========================================================================
